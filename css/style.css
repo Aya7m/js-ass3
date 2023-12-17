@@ -1,0 +1,75 @@
+
+body{
+    background-color:#F7ECDE;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    position: relative;
+    transition: all 1s;
+   
+   
+}
+h1:hover .bground{
+    transform: scaleY(1.1);
+}
+.bground{
+    width: 270px;
+    height: 30px;
+    background-color:#FEC260 ;
+    position: absolute;
+    left: 50%;
+    bottom: 85%;
+    translate: -50%;
+    z-index: -999;
+ 
+
+}
+h2{
+    color: #78a346;
+    position: relative;
+
+}
+span{
+    color: #B3AC4A;
+}
+.co1{
+    color:#85b74c ;
+}
+ 
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #BB4120;
+    --bs-btn-border-color: #dc3545;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb2d3b;
+    --bs-btn-hover-border-color: #b02a37;
+    
+}
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #85b74c;
+    --bs-btn-border-color:#85b74c ;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg:#78a346 ;
+    --bs-btn-hover-border-color: #78a346;
+}
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #D30820;
+    --bs-btn-border-color:#D30820 ;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb1b2b;
+  
+}
+#overlay{
+    
+    background-color: rgb(0, 0, 0,0.4);
+}
+#massige{
+    width: 40%;
+    height: 50vh;
+    background-color: white;
+}
